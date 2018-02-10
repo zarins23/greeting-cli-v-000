@@ -11,5 +11,5 @@ require_relative "../lib/greeting.rb"
 
 # code your CLI here!
 puts "Hi! I'm Zarin, what's your name?"
-name = gets.strip
+name = gets.strip   #capture the input using #gets. The .strip removes leading and trailing whitespaces.
 greeting(name)
