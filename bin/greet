@@ -10,4 +10,4 @@ require_relative "../lib/greeting.rb"
 #define methods/classes in lib
 
 # code your CLI here!
-puts "Hello #{name}, "
+puts "Hi! I'm HAL, what's your name?"
