@@ -4,6 +4,8 @@
 
 require_relative "../lib/greeting.rb"
 
+#here we require the greeting.rb file from w/in lib directory.
+#This gives our executable file access to whatever code we write in that lib file
 #our executable file requires the files in lib directory and uses that code to enact the CLI
 #define methods/classes in lib
 
