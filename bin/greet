@@ -1,4 +1,10 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env ruby <-- any executable file placed in bin need to begin w/'shebang line'
+#shebang line tells terminal which interpreter to use to execute the remainder of file
+# this file responsible for running the program, contains code that enacts command line interaction
+
 require_relative "../lib/greeting.rb"
+
+#our executable file requires the files in lib directory and uses that code to enact the CLI
+#define methods/classes in lib
 
 # code your CLI here!
